@@ -1,0 +1,51 @@
+docs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.egg-info/
+*.egg
+dist/
+build/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.so
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/*
+notebooks/.ipynb_checkpoints/ # Specifically for the notebooks folder
+
+# Papermill output notebook (if not stored elsewhere or if intermediate)
+# If 'notebooks/output.ipynb' is always an intermediate file before HTML conversion and not committed
+notebooks/output.ipynb
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.swp
+*~

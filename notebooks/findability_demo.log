@@ -1,0 +1,30 @@
+2025-05-20 16:46:57,317 - __main__ - INFO - Starting pipeline
+2025-05-20 16:46:57,318 - __main__ - INFO - Starting score_identifiers
+2025-05-20 16:46:57,319 - __main__ - INFO - Resolving DOI: 10.5061/dryad.4j0zpc8p9
+2025-05-20 16:46:57,516 - __main__ - INFO - Resolving DOI: 10.6084/m9.figshare.6025748
+2025-05-20 16:46:57,549 - __main__ - INFO - Fetching status for URL: https://zenodo.org/record/7673768
+2025-05-20 16:46:57,550 - __main__ - INFO - Fetching status for URL: https://openneuro.org/datasets/ds004470/about
+2025-05-20 16:46:57,552 - __main__ - INFO - Fetching status for URL: NC_045512
+2025-05-20 16:46:57,554 - __main__ - ERROR - Error fetching status for URL: NC_045512
+2025-05-20 16:46:57,665 - __main__ - INFO - Fetched status: 200, final URL: https://openneuro.org/datasets/ds004470/about
+2025-05-20 16:46:58,399 - __main__ - INFO - Fetched status: 200, final URL: https://zenodo.org/records/7673769
+2025-05-20 16:46:58,401 - __main__ - INFO - Completed fetch_status
+2025-05-20 16:46:58,404 - __main__ - INFO - Completed score_identifiers
+2025-05-20 16:46:58,405 - __main__ - INFO - Completed pipeline
+2025-05-20 16:46:58,405 - __main__ - INFO - Saving results
+2025-05-20 16:46:58,413 - __main__ - INFO - Results written to reports/findability_results.csv
+2025-05-20 16:53:28,155 - __main__ - INFO - Starting pipeline
+2025-05-20 16:53:28,160 - __main__ - INFO - Starting score_identifiers
+2025-05-20 16:53:28,165 - __main__ - INFO - Resolving DOI: 10.5061/dryad.4j0zpc8p9
+2025-05-20 16:53:28,284 - __main__ - INFO - Resolving DOI: 10.6084/m9.figshare.6025748
+2025-05-20 16:53:28,316 - __main__ - INFO - Fetching status for URL: https://zenodo.org/record/7673768
+2025-05-20 16:53:28,317 - __main__ - INFO - Fetching status for URL: https://openneuro.org/datasets/ds004470/about
+2025-05-20 16:53:28,319 - __main__ - INFO - Fetching status for URL: NC_045512
+2025-05-20 16:53:28,320 - __main__ - ERROR - Error fetching status for URL: NC_045512
+2025-05-20 16:53:28,428 - __main__ - INFO - Fetched status: 200, final URL: https://openneuro.org/datasets/ds004470/about
+2025-05-20 16:53:30,895 - __main__ - INFO - Fetched status: 200, final URL: https://zenodo.org/records/7673769
+2025-05-20 16:53:30,897 - __main__ - INFO - Completed fetch_status
+2025-05-20 16:53:30,900 - __main__ - INFO - Completed score_identifiers
+2025-05-20 16:53:30,901 - __main__ - INFO - Completed pipeline
+2025-05-20 16:53:30,902 - __main__ - INFO - Saving results
+2025-05-20 16:53:30,907 - __main__ - INFO - Results written to reports/findability_results.csv

@@ -1,0 +1,6 @@
+Repo,Asset,AssetType,resolved_url,http_status,final_url,response_s,findable
+Zenodo,https://zenodo.org/record/7673768,URL,https://zenodo.org/record/7673768,200.0,https://zenodo.org/records/7673769,2.580200884025544,1
+OpenNeuro,https://openneuro.org/datasets/ds004470/about,URL,https://openneuro.org/datasets/ds004470/about,200.0,https://openneuro.org/datasets/ds004470/about,0.11106607993133366,1
+Dryad,10.5061/dryad.4j0zpc8p9,DOI,,,,0.0,0
+Figshare,10.6084/m9.figshare.6025748,DOI,,,,0.0,0
+GenBank,NC_045512,Accession ,NC_045512,,,0.0009053628891706467,0

@@ -1,4 +1,4 @@
-Below is a code-free, bullet-level “construction manual” for your **Findability demonstration slice**.  It is organised by work-stream so you—or a collaborator—can tick items off chronologically.  A one-page deliverable matrix follows at the end.
+Below is a code-free, bullet-level "construction manual" for your **Findability demonstration slice**.  It is organised by work-stream so you—or a collaborator—can tick items off chronologically.  A one-page deliverable matrix follows at the end.
 
 ---
 
@@ -24,9 +24,9 @@ This mini-project creates a public GitHub repo that (1) ingests a CSV containing
 
 ## 2  Environment & dependencies
 
-* Declare runtime in `pyproject.toml` or `requirements.txt`: **aiohttp**, **pandas**, **nbconvert**, **papermill**, **python-dotenv** (for future secrets injection).
-* Pin Python ≥3.9; GitHub Actions will matrix-test 3.9 and 3.11 to demonstrate portability. ([GitHub Docs][2])
-* Document local setup: `python -m venv .venv && pip install -r requirements.txt`.
+* Declare runtime in `pyproject.toml`: **aiohttp**, **pandas**, **nbconvert**, **papermill**, **python-dotenv** (for future secrets injection).
+* Pin Python ≥3.12; GitHub Actions will matrix-test 3.12 to demonstrate portability. ([GitHub Docs][2])
+* Document local setup: `uv venv && source .venv/bin/activate && uv pip sync`.
 
 ---
 
@@ -106,7 +106,7 @@ This mini-project creates a public GitHub repo that (1) ingests a CSV containing
 
 * Expand README with sections: Background, Quick-start, How It Works, Identifier Templates, Contributing, Roadmap.
 * Add `docs/architecture.md`: ASCII diagram of data flow.
-* Open first Issue: “Add more NIH-approved repositories to template lookup”.
+* Open first Issue: "Add more NIH-approved repositories to template lookup".
 * Licence is MIT—include full text plus one-line notice in each source file header. ([tldrlegal.com][11])
 
 ---
@@ -120,7 +120,7 @@ This mini-project creates a public GitHub repo that (1) ingests a CSV containing
 
 ## 10  Deliverable matrix
 
-| Phase  | Artefact                    | Location       | “Done” test             |
+| Phase  | Artefact                    | Location       | "Done" test             |
 | ------ | --------------------------- | -------------- | ----------------------- |
 | Setup  | Repo skeleton & MIT licence | GitHub main    | Repo clones cleanly     |
 | Data   | `sample_identifiers.csv`    | `data/`        | 5 rows present          |
@@ -131,9 +131,9 @@ This mini-project creates a public GitHub repo that (1) ingests a CSV containing
 
 ---
 
-### You’re ready to build
+### You're ready to build
 
-Follow the work-streams in order; each bullet has an unambiguous exit criterion, so progress is measurable.  Once everything turns the GitHub Actions badge green, you’ll have a polished, reproducible demonstration slice that satisfies Phase 1’s “proof-of-concept” requirement. 🎯
+Follow the work-streams in order; each bullet has an unambiguous exit criterion, so progress is measurable.  Once everything turns the GitHub Actions badge green, you'll have a polished, reproducible demonstration slice that satisfies Phase 1's "proof-of-concept" requirement. 🎯
 
 [1]: https://papermill.readthedocs.io/en/latest/usage-execute.html?utm_source=chatgpt.com "Execute - papermill 2.4.0 documentation"
 [2]: https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions?utm_source=chatgpt.com "About billing for GitHub Actions"

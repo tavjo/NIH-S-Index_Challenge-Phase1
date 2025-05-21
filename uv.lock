@@ -249,6 +249,19 @@ wheels = [
 ]
 
 [[package]]
+name = "crossref-commons"
+version = "0.0.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "ratelimit" },
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8a/9d/a69673e371afa0d77edcb0cc8dfb6b05ccd9e1ffe879ca7804cf32e7851c/crossref_commons-0.0.7.tar.gz", hash = "sha256:4b8ae35d48acc4fe62da1662525396477e4f8c76fdb00cd42d5334c68713c4b6", size = 8261, upload-time = "2020-01-13T19:37:29.151Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/aa/83/c4d638f2f34ef722f8e655fa86d39215f36b8607a7927af2f2ebe5434431/crossref_commons-0.0.7-py3-none-any.whl", hash = "sha256:ab4f7a62a7745cf70ef68ffdebbb58091493db324a269f29df915f6f43bdf130", size = 14675, upload-time = "2020-01-13T19:37:27.806Z" },
+]
+
+[[package]]
 name = "debugpy"
 version = "1.8.14"
 source = { registry = "https://pypi.org/simple" }
@@ -715,6 +728,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "aiohttp" },
+    { name = "crossref-commons" },
     { name = "ipykernel" },
     { name = "nbconvert" },
     { name = "pandas" },
@@ -726,6 +740,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "aiohttp", specifier = ">=3.11.18" },
+    { name = "crossref-commons", specifier = ">=0.0.7" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "nbconvert", specifier = ">=7.16.6" },
     { name = "pandas", specifier = ">=2.2.3" },
@@ -1113,6 +1128,12 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/d9/8c/db446a3dd9cf894406dec2e61eeffaa3c07c3abb783deaebb9812c4af6a5/pyzmq-26.4.0-cp313-cp313t-musllinux_1_1_i686.whl", hash = "sha256:c80fcd3504232f13617c6ab501124d373e4895424e65de8b72042333316f64a8", size = 1495501, upload-time = "2025-04-04T12:04:28.833Z" },
     { url = "https://files.pythonhosted.org/packages/05/4c/bf3cad0d64c3214ac881299c4562b815f05d503bccc513e3fd4fdc6f67e4/pyzmq-26.4.0-cp313-cp313t-musllinux_1_1_x86_64.whl", hash = "sha256:26a2a7451606b87f67cdeca2c2789d86f605da08b4bd616b1a9981605ca3a364", size = 1395540, upload-time = "2025-04-04T12:04:30.562Z" },
 ]
+
+[[package]]
+name = "ratelimit"
+version = "2.2.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ab/38/ff60c8fc9e002d50d48822cc5095deb8ebbc5f91a6b8fdd9731c87a147c9/ratelimit-2.2.1.tar.gz", hash = "sha256:af8a9b64b821529aca09ebaf6d8d279100d766f19e90b5059ac6a718ca6dee42", size = 5251, upload-time = "2018-12-17T18:55:49.675Z" }
 
 [[package]]
 name = "referencing"

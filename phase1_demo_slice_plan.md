@@ -49,7 +49,7 @@ This mini-project creates a public GitHub repo that (1) ingests a CSV containing
 * **Step 1 – Type detection**: simple regex or string prefixes to label as DOI/URL/Accession.
 * **Step 2 – Resolution**
 
-  * DOI → query Crossref REST (`https://api.crossref.org/works/{doi}`) to retrieve `URL` field. ([www.crossref.org][6])
+  * DOI → query Crossref REST (`https://api.crossref.org/works/{doi}`) to retrieve `URL` field. If Crossref returns a 404 error or does not provide a URL in a successful response, fall back to resolving via `https://doi.org/{doi}`. ([www.crossref.org][6])
   * URL → use as-is.
   * Accession → format into template `https://www.ncbi.nlm.nih.gov/nuccore/{acc}` for GenBank. ([NCBI][5])
   * If the accession is from another database later, look up re3data to fetch repository landing-page prefix. ([re3data][7])

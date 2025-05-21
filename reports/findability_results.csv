@@ -1,6 +1,6 @@
 Repo,Asset,AssetType,resolved_url,http_status,final_url,response_s,findable
-Zenodo,https://zenodo.org/record/7673768,URL,https://zenodo.org/record/7673768,200,https://zenodo.org/records/7673769,1.2776934569701552,1
-OpenNeuro,https://openneuro.org/datasets/ds004470/about,URL,https://openneuro.org/datasets/ds004470/about,200,https://openneuro.org/datasets/ds004470/about,0.1196957710199058,1
-Dryad,10.5061/dryad.4j0zpc8p9,DOI,https://datadryad.org/dataset/doi:10.5061/dryad.4j0zpc8p9,200,https://datadryad.org/dataset/doi:10.5061/dryad.4j0zpc8p9,0.45592115295585245,1
-Figshare,10.6084/m9.figshare.6025748,DOI,https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_6025748/6025748,200,https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_6025748/6025748,0.2872949580196291,1
-GenBank,NC_045512,Accession ,https://www.ncbi.nlm.nih.gov/nuccore/NC_045512,200,https://www.ncbi.nlm.nih.gov/nuccore/NC_045512,1.8128723009722307,1
+Zenodo,https://zenodo.org/record/7673768,URL,https://zenodo.org/record/7673768,200,https://zenodo.org/records/7673769,1.390723838005215,1
+OpenNeuro,https://openneuro.org/datasets/ds004470/about,URL,https://openneuro.org/datasets/ds004470/about,200,https://openneuro.org/datasets/ds004470/about,0.1273418329656124,1
+Dryad,10.5061/dryad.4j0zpc8p9,DOI,https://datadryad.org/dataset/doi:10.5061/dryad.4j0zpc8p9,200,https://datadryad.org/dataset/doi:10.5061/dryad.4j0zpc8p9,0.4375183869851753,1
+Figshare,10.6084/m9.figshare.6025748,DOI,https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_6025748/6025748,200,https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_6025748/6025748,0.619811226031743,1
+GenBank,NC_045512,Accession ,https://www.ncbi.nlm.nih.gov/nuccore/NC_045512,200,https://www.ncbi.nlm.nih.gov/nuccore/NC_045512,0.9494146120268852,1

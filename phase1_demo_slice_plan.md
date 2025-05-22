@@ -1,7 +1,3 @@
-Below is a code-free, bullet-level "construction manual" for your **Findability demonstration slice**.  It is organised by work-stream so you—or a collaborator—can tick items off chronologically.  A one-page deliverable matrix follows at the end.
-
----
-
 ## Executive outline
 
 This mini-project creates a public GitHub repo that (1) ingests a CSV containing DOIs, repository URLs and accession numbers, (2) resolves each identifier to a canonical landing page using Crossref, re3data or a URL template, (3) issues a lightweight `aiohttp` GET request and awards a binary Findability score, (4) saves results to disk, renders an HTML report with **nbconvert**, and (5) re-runs on every push via GitHub Actions—all under the MIT licence.  Each task below is phrased as an action item with clear exit criteria.

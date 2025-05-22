@@ -20,7 +20,14 @@ This project follows Readme-Driven Development. For more details on the plan for
 
 To run the findability analysis:
 
-1.  **Set up the environment:**
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/your-repository-name.git
+    cd your-repository-name
+    ```
+    *(Replace `your-username` and `your-repository-name` with the actual username and repository name)*
+
+2.  **Set up the environment:**
     ```bash
     uv venv  # Create a virtual environment with uv
     source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
@@ -28,7 +35,7 @@ To run the findability analysis:
     ```
     *(Note: Dependencies are managed in `pyproject.toml`)*
 
-2.  **Run the analysis:**
+3.  **Run the analysis:**
     ```bash
     make findability
     ```

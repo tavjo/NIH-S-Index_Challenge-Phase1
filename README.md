@@ -22,10 +22,9 @@ To run the findability analysis:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone git@github.com:tavjo/NIH-S-Index_Challenge-Phase1.git
+    cd NIH-S-Index_Challenge-Phase1
     ```
-    *(Replace `your-username` and `your-repository-name` with the actual username and repository name)*
 
 2.  **Set up the environment:**
     ```bash

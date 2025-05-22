@@ -16,6 +16,18 @@ The primary objectives of this demonstration are to:
 
 This project follows Readme-Driven Development. For more details on the plan for this demonstration slice, please see the [Phase 1 Demo Slice Plan](phase1_demo_slice_plan.md).
 
+## Viewing the Latest Report
+
+For a quick view of the latest findability analysis results without running the code, you can access the pre-generated HTML report. 
+
+**To view the report from GitHub:**
+
+1.  Navigate to the [Latest Findability Report file](reports/latest.html) in this repository.
+2.  Download the `latest.html` file to your computer (usually via a "Download" or "Raw" button on the GitHub file view).
+3.  Open the downloaded `latest.html` file in your web browser.
+
+This report is automatically updated in the repository when the `make findability` command is successfully executed and the changes are committed and pushed.
+
 ## Quick Start
 
 To run the findability analysis:

@@ -1,3 +1,5 @@
+# **Logical Workflow for Full Project**
+
 **Quick-look summary** 
 
 Starting from a unique identifier (DOI, accession, or direct URL), the pipeline moves—**sequentially and without branching**—through *Findable → Accessible → Knowledge-base Loading → Interoperable → Reusable → Researcher Portfolio Weighting*.  
@@ -5,7 +7,7 @@ Automation elements:
 
 * **Playwright** headless browsers for resilient link checks with exponential back-off [Playwright](https://playwright.dev/python/docs/library?utm_source=chatgpt.com).  
 * Repository-specific handlers (Zenodo, Figshare, Dataverse, Dryad) for manifest pulls via documented REST endpoints [Zenodo Developers](https://developers.zenodo.org/?utm_source=chatgpt.com)[GitHub](https://github.com/zenodo/developers.zenodo.org/blob/master/source/includes/overview/_introduction.md?utm_source=chatgpt.com).  
-* Rapid ontology look-ups through OLS-v4 and nightly‐mirrored OBO Foundry dumps [EMBL-EBI](https://www.ebi.ac.uk/ols4/help?utm_source=chatgpt.com)[OBO Foundry](https://obofoundry.org/?utm_source=chatgpt.com).  
+* Rapid ontology look-ups through OLS-v4 and weekly‐mirrored OBO Foundry dumps [EMBL-EBI](https://www.ebi.ac.uk/ols4/help?utm_source=chatgpt.com)[OBO Foundry](https://obofoundry.org/?utm_source=chatgpt.com).  
 * **Cosine-similarity tests** on embedded metadata strings to award points against FAIR criteria (Sentence-Transformer embeddings).  
 * Empty-file detection via a configurable MIME→min-bytes map; proprietary-format detection via a weekly refreshed “vendor-locked” table seeded from FAIRsharing and Wikipedia lists [Wikipedia](https://en.wikipedia.org/wiki/Proprietary_file_format?utm_source=chatgpt.com).  
 * Researcher-level S-index \= weighted average of dataset scores; weights are produced by a *piece-wise sigmoid* band whose slope-parameter *k* is tuned through a validation-curve (rank-stability) analysis [ScienceDirect](https://www.sciencedirect.com/topics/computer-science/sigmoid-function?utm_source=chatgpt.com).

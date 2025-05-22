@@ -27,6 +27,7 @@ coverage.xml
 *.so
 *.manifest
 *.spec
+*.env
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -49,3 +50,8 @@ $RECYCLE.BIN/
 .vscode/
 *.swp
 *~
+
+# Logs
+*.log
+*.log.*
+logs/
